@@ -1,5 +1,7 @@
 # Visual VTMB DLG Editor — Guide (EN)
 
+![Demo Screenshot](demo.png)
+
 An interactive **DLG** (VTMB‑compatible) dialogue editor. It renders dialogues as a **graph**:
 - **Blue** edges — **PC → NPC** (player reply leads to an NPC line)
 - **Green** edges — **NPC → PC** (choices offered by an NPC)
@@ -92,3 +94,4 @@ python app.py
 - Use **Auto Compact** and/or **Format Spacing…**
 - New tree **grid‑packing** removes the “infinite width” issue
 - If green edges are noisy, temporarily toggle off `Show NPC → PC links`
+
